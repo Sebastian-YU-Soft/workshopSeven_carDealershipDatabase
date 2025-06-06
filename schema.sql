@@ -44,3 +44,11 @@ CREATE TABLE vehicles (
     ('Quantum Drive', '1011 Park Ave, New York, NY 10028', '555-0131'),
     ('Ascend Autos', '3031 Central Park West, New York, NY 10023', '555-0202');
     
+    INSERT INTO vehicles (VIN, make, model, year, color, price, sold)
+    VALUES
+    ('1HGCM82633A004352', 'Honda', 'Accord', 2020, 'Red', 22000.00, FALSE),
+	('1FAFP404X1F123456', 'Ford', 'Mustang', 2018, 'Blue', 26000.00, FALSE),
+	('1G1JC1244T7254930', 'Chevrolet', 'Cavalier', 2019, 'Black', 18000.00, TRUE),
+	('3HGCM56497G123456', 'Honda', 'Civic', 2021, 'White', 25000.00, FALSE),
+	('1HGCM82633A004353', 'Honda', 'Accord', 2020, 'Red', 22000.00, TRUE);
+    
