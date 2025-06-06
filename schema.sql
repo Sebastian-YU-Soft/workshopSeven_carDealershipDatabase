@@ -52,3 +52,14 @@ CREATE TABLE vehicles (
 	('3HGCM56497G123456', 'Honda', 'Civic', 2021, 'White', 25000.00, FALSE),
 	('1HGCM82633A004353', 'Honda', 'Accord', 2020, 'Red', 22000.00, TRUE);
     
+     INSERT INTO inventory (dealership_id, VIN) 
+    VALUES
+	(1, '1HGCM82633A004352'),
+	(1, '1FAFP404X1F123456'),
+	(2, '1G1JC1244T7254930'),
+	(2, '3HGCM56497G123456'),
+	(3, '1HGCM82633A004353');
+    
+    INSERT INTO sales_contracts (VIN, sale_date, sale_price, customer_name) VALUES
+	('1HGCM82633A004353', '2024-06-05', 22000.00, 'Jason M.');
+    
