@@ -37,3 +37,10 @@ CREATE TABLE vehicles (
     customer_name VARCHAR(50),
     PRIMARY KEY (`contract_id`)
     );
+    
+     INSERT INTO dealerships (name, address, phone) 
+    VALUES
+    ('Apex Motors', '123 5th Ave, New York, NY 10010', '555-0101'),
+    ('Quantum Drive', '1011 Park Ave, New York, NY 10028', '555-0131'),
+    ('Ascend Autos', '3031 Central Park West, New York, NY 10023', '555-0202');
+    
